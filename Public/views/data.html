@@ -3,79 +3,66 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Data — Advanced Web Data</title>
-  <link rel="stylesheet" href="/css/tokens.css">
-  <link rel="stylesheet" href="/css/base.css">
+  <title>Data — Advanced Web Project</title>
+  <link rel="stylesheet" href="../css/tokens.css">
+  <link rel="stylesheet" href="../css/base.css">
 </head>
 <body>
-  <!-- Skip link -->
   <a class="skip-link" href="#main">Skip to main content</a>
 
   <header role="banner">
-    <div class="container">
-      <h1>Data - Advanced Web Project</h1>
+    <div class="container header-content">
+      <h1>Advanced Web Project</h1>
       <nav role="navigation" aria-label="Primary">
-        <ul>
-          <li><a href="../index.html">Home</a></li>
-          <li><a href="data.html" aria-current="page">Data</a></li>
-          <li><a href="form.html">Form</a></li>
+  <ul>
+    <li><a href="../index.html">Home</a></li>
+    <li><a href="data.html" aria-current="page">Data</a></li>
+    <li><a href="form.html">Form</a></li>
+  </ul>
+</nav>
 
-        </ul>
-      </nav>
     </div>
   </header>
 
- <main id="main" tabindex="-1" role="main">
-  <h1>Data Page</h1>
-
-  <section aria-labelledby="data-title">
-    <h2 id="data-title">Popular Programming Languages (2025)</h2>
+  <main id="main" tabindex="-1" role="main">
+    <h2>Programming Language Trends (2025)</h2>
+    <p>
+      Below is a simple dataset showing estimated popularity rankings for some of the most used programming languages in 2025.
+      The data was adapted from several online developer surveys.
+    </p>
 
     <table>
-      <caption class="hidden-visually">List of programming languages and their ranking</caption>
+      <caption class="hidden-visually">List of popular programming languages and their ranking</caption>
       <thead>
         <tr>
           <th scope="col">Rank</th>
           <th scope="col">Language</th>
           <th scope="col">Trend</th>
+          <th scope="col">Primary Use</th>
         </tr>
       </thead>
       <tbody>
-        <tr>
-          <td>1</td>
-          <td>JavaScript</td>
-          <td>↑</td>
-        </tr>
-        <tr>
-          <td>2</td>
-          <td>Python</td>
-          <td>↑</td>
-        </tr>
-        <tr>
-          <td>3</td>
-          <td>Java</td>
-          <td>→</td>
-        </tr>
-        <tr>
-          <td>4</td>
-          <td>C#</td>
-          <td>↓</td>
-        </tr>
+        <tr><td>1</td><td>JavaScript</td><td>↑</td><td>Web development</td></tr>
+        <tr><td>2</td><td>Python</td><td>↑</td><td>Data science & AI</td></tr>
+        <tr><td>3</td><td>Java</td><td>→</td><td>Enterprise apps</td></tr>
+        <tr><td>4</td><td>C#</td><td>→</td><td>Game & desktop apps</td></tr>
+        <tr><td>5</td><td>TypeScript</td><td>↑</td><td>Large-scale web apps</td></tr>
       </tbody>
     </table>
-  </section>
-</main>
-
+  </main>
 
   <aside role="complementary">
-    <h3>Extras</h3>
-    <p>Useful links or notes could appear here.</p>
+    <h3>Data Source</h3>
+    <p>
+      Compiled from GitHub repositories and Stack Overflow trends.
+      Updated as of 2025 for academic demonstration purposes.
+    </p>
   </aside>
 
   <footer role="contentinfo">
-    <p>&copy; 2025 Advanced Web Project</p>
+    <p>&copy; 2025 Advanced Web Project | Data Page</p>
   </footer>
 
-  <script src="/js/a11y.js" defer></script>
+  <script src="../js/a11y.js" defer></script>
 </body>
 </html>
