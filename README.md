@@ -15,3 +15,6 @@ This is a 3-page accessible website built for the Advanced Web course.
 
 ## Evidence
 All required screenshots, Lighthouse reports, and snippets are in the `/evidence/` folder.
+
+link:
+https://tedwanjihia.github.io/advanced-web/
